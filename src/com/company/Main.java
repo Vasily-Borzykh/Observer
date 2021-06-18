@@ -1,6 +1,6 @@
 package com.company;
 
-public class Demo {
+public class Main {
     public static void main(String[] args) {
         Editor editor = new Editor();
         editor.events.subscribe("open", new LogOpenListener("/path/to/log/file.txt"));
